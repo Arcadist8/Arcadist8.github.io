@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "Josefin Sans";
+	font-weight: 300;
+	src: url("JosefinSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Josefin Sans";
+	font-weight: 600;
+	src: url("JosefinSans-SemiBold.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	font-family: "Josefin Sans", sans-serif;
+	color: #ffffff;
+}
+
+html, body {
+	padding: 0;
+	min-height: 100vh;
+}
+
+body {
+	background-image: linear-gradient(135deg, #66001a, #1a1a1a);
+}
+
+#header {
+	height: 100vh;
+
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+#h-name {
+	font-size: 5em;
+}
+
+#h-sub {
+	font-size: 2em;
+	margin-top: 16px;
+}
